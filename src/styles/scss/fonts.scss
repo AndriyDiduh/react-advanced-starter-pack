@@ -1,0 +1,65 @@
+// PFDinDisplayPro
+@font-face {
+    font-family: 'PFDinDisplayPro-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinDisplayPro-Light'), url('../fonts/pf_dindisplay_pro/PFDinDisplayPro-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-LightItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinDisplayPro-LightItalic'),
+        url('../fonts/pf_dindisplay_pro/PFDinDisplayPro-LightItal.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinDisplayPro-Bold'), url('../fonts/pf_dindisplay_pro/PFDinDisplayPro-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinDisplayPro-Black'), url('../fonts/pf_dindisplay_pro/PFDinDisplayPro-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PFDinDisplayPro-BlackItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PFDinDisplayPro-BlackItalic'),
+        url('../fonts/pf_dindisplay_pro/PFDinDisplayPro-BlackItalic.woff') format('woff');
+}
+
+// GT Walsheim
+@font-face {
+    font-family: 'GT Walsheim';
+    font-style: normal;
+    font-weight: 400;
+    src: local('GT Walsheim Regular'), local('GT-Walsheim-Regular'),
+        url('../fonts/gt_walsheim/GT-Walsheim-Regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/gt_walsheim/GT-Walsheim-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-style: normal;
+    font-weight: 500;
+    src: local('GT Walsheim Medium'), local('GT-Walsheim-Medium'),
+        url('../fonts/gt_walsheim/GT-Walsheim-Medium.woff2') format('woff2');
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+@font-face {
+    font-family: 'GT Walsheim';
+    font-style: normal;
+    font-weight: 700;
+    src: local('GT Walsheim Bold'), local('GT-Walsheim-Bold'),
+        url('../fonts/gt_walsheim/GT-Walsheim-Bold.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/gt_walsheim/GT-Walsheim-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
