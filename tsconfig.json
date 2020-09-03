@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "charset": "utf-8",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es6",
+        "lib": ["es6", "dom"],
+        "allowJs": true,
+        "jsx": "react",
+        "allowUnusedLabels": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "baseUrl": ".",
+        "rootDir": "src",
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "typeRoots": ["types"],
+        "resolveJsonModule": true,
+        "paths": {
+            "React/*": ["node_modules/React/*"],
+            "Src/*": ["src/*"],
+            "Api/*": ["src/api/*"],
+            "Components/*": ["src/components/*"],
+            "Screens/*": ["src/screens/*"],
+            "Actions/*": ["src/flux/actions/*"],
+            "Store/*": ["src/flux/store/*"],
+            "Scss/*": ["src/styles/scss/*"],
+            "Imgs/*": ["src/styles/img/*"],
+            "Content/*": ["src/content/*"],
+            "Types/*": ["src/types/"]
+        }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
