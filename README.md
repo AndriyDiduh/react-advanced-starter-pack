@@ -1,3 +1,6 @@
+
+<img src="https://raw.githubusercontent.com/AndriyDiduh/react-advanced-starter-pack/master/src/styles/img/react_logo.svg" width="400px"/>
+
 # RASP - React Advanced Starter Pack 
 Hi, I'm Andriy Diduh, this starter pack is all in one to start your next Powerful Project with 0 config. I'll try to keep it clean and updated. Yes I use this setup for my projects, usually I install additional third party modules like maps, date picker, etc... 
 
