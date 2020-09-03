@@ -183,11 +183,11 @@ let conf = {
 export default (env, options) => {
     /**
      * SWITCH between PRODUCTION deploy and DEVELOPMENT server MODE
-     * Production, use Babel and Uglify and do Not generete Any Map
+     * Production, use Babel and Uglify and do Not generate Any Map
      * Development, use Babel and generate Source Map for debugging
      */
 
-    // For Producion do Not generate Map
+    // For Production do Not generate Map
     let production = options.mode === 'production'
     conf.devtool = production ? false : 'eval-source-map'
 
