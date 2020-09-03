@@ -1,11 +1,10 @@
-# React Advanced Starter Pack - NOT READY YET :( but soon will be :) 
+# RASP - React Advanced Starter Pack 
 Hi, I'm Andriy Diduh, this starter pack is all in one to start your next Powerful Project with 0 config. I'll try to keep it clean and updated. Yes I use this setup for my projects, usually I install additional third party modules like maps, date picker, etc... 
 
 But here I will try to keep setup to the most needed one. 
 
 
--- This version is RAW and needs to be edited to work properly. --
--- I will edit Readme when this project will be ready.--
+-- This version is RAW and needs to be edited to work properly. I will edit Readme when this project will be ready.--
 
 ### Main setup
 - ES6 code standard setup
