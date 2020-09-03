@@ -9,7 +9,7 @@ But here I will try to keep setup to the most needed one.
 
 ### Main setup
 - ES6 code standard setup
-- no semicolon ";" is used at end of each line 
+- no semicolon ";" is used 
 
 ### Technology support
 - <strong>TypeScript</strong> support
@@ -24,20 +24,71 @@ But here I will try to keep setup to the most needed one.
 - in process of writing...
 
 ### Import 
-- Images import, includes SVG
-- Video import, MP4
+- Images import, includes SVG, GIF, PNG, JPG, JPEG, ICO
+- Video import, includes MP4
 
 ### Styles
 - <strong>CSS</strong> and <strong>SASS</strong> support 
 
 ### API handling 
-- <strong>Axios</strong> to send calls 
+- <strong>Axios</strong> to send calls to your API 
 
 ### Maps 
-- <strong>Geojson</strong> support
+- <strong>Geojson</strong> file format support
 
 ### Deploy
 - <strong>Netlify</strong> support 
 
-## Folder structure and use 
+## Folder structure and use
+<strong>Import shortcuts</strong> 
+
+```js
+
+    // Examples of how to import with shortcuts
+    import MyComponent from 'Components/MyComponent'
+    import {
+        ListInfoBlock,
+        TextInfoBlock,
+    } from 'Components/InfoBlocks'
+    import 'Scss/my-styles.scss'
+
+    // List of shortcuts
+    Src: './src'
+    Api: './src/api'
+    Components: './src/components'
+    Screens: './src/screens'
+    Actions: './src/flux/actions'
+    Store: './src/flux/store'
+    Imgs: './src/styles/img'
+    Scss: './src/styles/scss'
+    Content: './src/content'
+    Types: './src/types'
+```
 - in process of writing...
+
+
+# RUN 
+<strong>Development!</strong>
+- Launch locally in a browser as development setup. 
+```bash
+npm run start:dev
+```
+- Build for <strong>Development</strong> to ./dist folder.
+```bash
+npm run start:dev
+```
+<strong>Production!</strong>
+- Launch for production - in making....
+```bash
+npm run ......
+```
+- Build for <strong>Production</strong> to ./dist folder.
+```bash
+npm run build:prod
+```
+<strong>Testing!</strong>
+- in making......
+
+## License
+
+_react-advanced-starter-pack_ is available under the MIT License.
