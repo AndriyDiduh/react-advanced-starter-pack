@@ -21,6 +21,7 @@ But here I will try to keep setup to the most needed one.
 - <strong>Prettier</strong> config for code style
 
 ### Store management 
+- <strong>Flux</strong> folder shortcuts added to Webpack and Typescript config files
 - in process of writing...
 
 ### Import 
@@ -75,7 +76,7 @@ npm run start:dev
 ```
 - Build for <strong>Development</strong> to ./dist folder.
 ```bash
-npm run start:dev
+npm run build:dev
 ```
 <strong>Production!</strong>
 - Launch for production - in making....
@@ -87,7 +88,7 @@ npm run ......
 npm run build:prod
 ```
 <strong>Testing!</strong>
-- in making......
+- in the making......
 
 ## License
 
